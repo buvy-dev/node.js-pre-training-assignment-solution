@@ -1,4 +1,4 @@
-#A: 
+# A: 
 Темы
 Introduction; Hello world; Code structure; Variables; Data types; Type conversions; Basic operators; Comparisons
 Практика
@@ -6,5 +6,5 @@ Introduction; Hello world; Code structure; Variables; Data types; Type conversio
 Проверка без подсказок
 Задание 1 из диагностики: 7 из 7 с объяснением
 
-#B: 
+# B: 
 Murphy, юнит 1
