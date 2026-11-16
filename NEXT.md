@@ -1,10 +1,10 @@
-# A: 
-Темы
+## A: 
+### Темы
 Introduction; Hello world; Code structure; Variables; Data types; Type conversions; Basic operators; Comparisons
-Практика
+### Практика
 Запуск файлов через Node; 10 мини-примеров на преобразование типов
-Проверка без подсказок
+### Проверка без подсказок
 Задание 1 из диагностики: 7 из 7 с объяснением
 
-# B: 
+## B: 
 Murphy, юнит 1
