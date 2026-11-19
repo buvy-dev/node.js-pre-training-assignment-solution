@@ -137,24 +137,19 @@ v = 1 + 2, 3 + 4 // 3
 // because , has precedence lower than = and = returns result earlier than ,
 console.log(v);
 
-// Practice
+// Practice DONE
 
-// "10"
-// NaN or -1 -> -1
-// false -> 1
-// 2
-// 6
-// "9px"
-// "$45"
-// 2
-// NaN
-// "-95" or "   -9   5" -> "   -9   5"
-// NaN or -14 -> -14
-// null -> 1
-// undefined -> NaN
-// NaN -> -2
-
-let m = "1";
-let j = "2";
-
-console.log(+m + +j);
+"" + 1 + 0 // 10
+"" - 1 + 0 // -1
+true + false // 1
+6 / "3" // 2
+"2" * "3" // 6
+4 + 5 + "px" // 9px
+"$" + 4 + 5 // $45
+"4" - 2 // 2
+"4px" - 2 // NaN
+"  -9  " + 5 // "  -9  5"
+"  -9  " - 5 // -14
+null + 1 // 1
+undefined + 1 // NaN
+" \t \n" - 2 // -2
