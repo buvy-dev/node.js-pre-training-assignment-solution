@@ -23,8 +23,10 @@ console.log(typeof 10n, typeof Symbol("id"));
 // bigint, symbol
 
 // 4
+console.log("Task 4:")
 console.log(1 / 0, -1 / 0, "abc" / 2); // Infinity, -Infinity, NaN
-console.log(0.1 + 0.2 === 0.3); // я не знаю что такое === еще не учил
+console.log(0.1 + 0.2 === 0.3); // false - особенности хранения чисел 
+// JS в десятичной системе
 
 // 5
 console.log("1" + 2 + 3); // 123
@@ -39,8 +41,8 @@ let d = c++ + ++c; // d = 0 + 2
 
 // 7 
 let n = 100;
-let ost_n = n - (n % 7);
-console.log(n % 7, ost_n)
+let devider = n - (n % 7);
+console.log(devider, n - devider)
 
 // 8
 console.log(Number("  12  "), Number("12px"), Number(""), Number(null), Number(undefined), Number(true));
